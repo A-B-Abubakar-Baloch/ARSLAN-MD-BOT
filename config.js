@@ -14,9 +14,9 @@ module.exports = {
 
   LOGS: toBool(process.env.LOGS) || true,
 
-  AUDIO_DATA: process.env.AUDIO_DATA || 'Jsl;Arslan;https://i.ibb.co/ck4V2L0/1699391288528.jpg',
+  AUDIO_DATA: process.env.AUDIO_DATA || 'BALOCH-MD;https://telegra.ph/file/502db1d65165704fe4a70.jpg',
  
-  STICKER_PACKNAME: process.env.STICKER_PACKNAME || 'Arslan;Jsl',
+  STICKER_PACKNAME: process.env.STICKER_PACKNAME || 'BALOCH-MD',
   
   DATABASE: DATABASE_URL === "./lib/database.db" ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: false }) : new Sequelize(DATABASE_URL, {dialect: "postgres", ssl: true, protocol: "postgres", dialectOptions: { native: true, ssl: { require: true, rejectUnauthorized: false },}, logging: false }),
 
@@ -28,7 +28,7 @@ module.exports = {
   
   WARN_LIMIT: process.env.WARN_LIMIT || "3",
 
-  HANDLERS:process.env.HANDLER === "false" || process.env.HANDLERS || '^,',
+  HANDLERS:process.env.HANDLER === "false" || process.env.HANDLERS || '.',
 
   IMGBB_KEY: ["76a050f031972d9f27e329d767dd988f", "deb80cd12ababea1c9b9a8ad6ce3fab2", "78c84c62b32a88e86daf87dd509a657a"],
 
@@ -40,21 +40,21 @@ module.exports = {
 
   ANTIFAKE : process.env.ANTIFAKE || '',
 
-  FORWARD: process.env.FORWARD || 'ARSLAN-MD-BOT;~Jasil;Copyright by Arslan-MD;https://i.ibb.co/ck4V2L0/1699391288528.jpg;audio;audio/mp4;https://github.com/Arsalan010officiall/ARSLAN-MD-BOT',
+  FORWARD: process.env.FORWARD || 'BALOCH-MD-BOT;~AB;Copyright by BALOCH-MD;https://telegra.ph/file/502db1d65165704fe4a70.jpg;audio;audio/mp4;https://github.com/A-B-Abubakar-Baloch/BALOCH-MD',
   
-  BOT_INFO: process.env.BOT_INFO || 'ARSLAN-MD-BOT;~Jasil;Copyright by Arslan-MD;https://i.ibb.co/ck4V2L0/1699391288528.jpg',
+  BOT_INFO: process.env.BOT_INFO || 'BALOCH-MD-BOT;~AB;Copyright by BALOCH-MD;https://telegra.ph/file/502db1d65165704fe4a70.jpg',
 
   WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
 
   GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
 
-  STICKER_DATA: process.env.STICKER_DATA || "Arslan-MD",
+  STICKER_DATA: process.env.STICKER_DATA || "BALOCH-MD",
 
   ACR_A: "ff489a0160188cf5f0750eaf486eee74",
 
-  ACR_S: "ytu3AdkCu7fkRVuENhXxs9jsOW4YJtDXimAWMpJp",
+  ACR_S: "https://youtu.be/DtozbZDXBPM?si=NdHmbiAZAV2OgKfm",
 
-  SUDO: process.env.SUDO || "923237045919",
+  SUDO: process.env.SUDO || "923461253726",
 
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || " ",
 
