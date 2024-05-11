@@ -2,10 +2,10 @@
 	"name": "Deploy",
 	"description": "Wa Bot.",
 	"keywords": [
-		"ARSLAN",
+		"BALOCH",
 		"bot"
 	],
-	"repository": "https://github.com/Arsalan010officiall/ARSLAN-MD-BOT",
+	"repository": "https://github.com/A-B-Abubakar-Baloch/BALOCH-MD",
 	"stack": "container",
     "env": { 
         "HANDLERS": {
@@ -56,17 +56,17 @@
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
-            "value":"ARSLAN-MD-BOT,~ARSLAN💗"
+            "value":"BALOCH-MD-BOT,~Baloch💗"
         },
        "BOT_INFO": {
             "description": "Your bot menu info changing ;",
             "required": true,
-            "value":"ARSLAN MD BOT;~ARSLAN;Copyright by Arslan MD;https://i.ibb.co/ck4V2L0/1699391288528.jpg"
+            "value":"BALOCH MD BOT;~BALOCH;Copyright by BALOCH MD;https://telegra.ph/file/502db1d65165704fe4a70.jpg"
         },
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
             "required": true,
-            "value":"ARSLAN MD;Arslan;https://i.ibb.co/ck4V2L0/1699391288528.jpg"
+            "value":"BALOCH MD;BALOCH;https://telegra.ph/file/502db1d65165704fe4a70.jpg"
         },
         "MODE": {
             "description": "Private or public",
@@ -76,10 +76,10 @@
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":"923237045919"
+            "value":"923461253726"
         },
        "SESSION_ID": {
-            "description": "Your ARSLAN MD session",
+            "description": "Your BALOCH MD session",
             "required": true
              
         }
